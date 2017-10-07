@@ -1,0 +1,294 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+html.js .loader {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+html.js .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+body {
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    background-color: aqua;
+    max-width: 1920px;
+    min-height: 600px;
+    width: 100%;
+}
+
+#container1 {
+    margin-top: -80px;
+    background-image: url(../img/bg.png);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+}
+
+#cosm h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 95px;
+    text-align: center;
+}
+
+#cosm1 h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 130px;
+    text-align: center;
+}
+
+#image1 img {
+    padding-top: 25px;
+}
+
+#mouse_img img {
+    padding-top: 60px;
+}
+
+#container2 {
+    margin-top: -80px;
+    background-image: url(../img/bg2.png);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 600px;
+}
+
+#row_image {
+    padding-top: 100px;
+}
+
+#row_image1 {
+    padding-top: 80px;
+}
+
+#icon p {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#container3 {
+    background-image: url(../img/bg3.png);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 700px;
+    max-height: 1200px;
+    background-repeat: no-repeat;
+
+}
+
+#video {
+    padding-top: 55px;
+}
+
+#video img {
+    max-width: 360px;
+    width: 100%;
+}
+
+#cosm2 h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 130px;
+    text-align: center;
+    color: #775b4a;
+}
+
+#container4 {
+    margin-top: -80px;
+    background-image: url(../img/bg4.png);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+
+#text_lesson {
+    padding-top: 160px;
+    color: #775b4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#text_lesson p span {
+    color: #e0446e;
+    font-weight: 700;
+}
+
+#spaan {
+    font-weight: 700;
+
+}
+
+#text_lesson1 {
+    padding-top: 160px;
+    color: #775b4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+#text_lesson1 p span {
+    color: #e0446e;
+    font-weight: 700;
+}
+
+#price p {
+    padding-top: 30px;
+    text-align: center;
+    color: #775b4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+#price button {
+    color: #fff;
+    width: 188px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #e0446e;
+}
+
+
+button a {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#container5 {
+    margin-top: -50px;
+    background-image: url(../img/bg5.png);
+    max-width: 1920px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#lessons p {
+    color: #826757;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+#row_less {
+    padding-top: 50px;
+}
+
+#container6 {
+    margin-top: -50px;
+    background-image: url(../img/bg6.png);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+
+#teacher p {
+    padding-top: 15px;
+    color: #775b4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#about p {
+    color: #775b4a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+#row_teacher {
+    padding-top: 50px;
+}
+
+#about i {
+    color: #e0446e;
+    padding-right: 15px;
+}
+
+#container7 {
+    background-image: url(../img/bg7.png);
+    margin-top: -50px;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+
+#imm img{
+    max-width: 380px;
+}
+
+#row_imm{
+    padding-top: 50px;
+}
